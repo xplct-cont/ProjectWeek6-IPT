@@ -12,7 +12,7 @@ class Trainee extends Model
         return $this->belongsTo('App\Models\Course');
     }
 
-    public function user(){
+    public function users(){
         return $this->belongsTo('App\Models\User');
       }
     // use HasFactory;
