@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Trainee extends Model
 {
    
-    public function courses(){
+    public function course(){
         return $this->belongsTo('App\Models\Course');
     }
 
-    public function users(){
+    public function user(){
         return $this->belongsTo('App\Models\User');
       }
     // use HasFactory;
