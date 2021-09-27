@@ -13,7 +13,7 @@ class Trainor extends Model
     }
 
     public function courses(){
-        return $this->hasMany('App\\Models\Courses');
+        return $this->hasMany('App\Models\Courses');
      }
 
     //use HasFactory;
